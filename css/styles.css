@@ -1,0 +1,32 @@
+
+
+body {
+    background-color: #E6DDC4;
+}
+hr {
+    border-style: dotted none none;
+    height: 2.5px;
+    border-width: 5px;
+    border-color: #9D9D9D;
+    width: 55%;
+}
+
+h1 {
+    color: #181D31;
+}
+
+h2 {
+    color: #181D31;
+}
+
+h3 {
+    color: #141E27;
+}
+
+.intro_name:hover {
+    text-shadow: 5.5px 5.5px 3.7px #9D9D9D;
+}
+
+.intro_name {
+    transition: 2s text-shadow;
+}

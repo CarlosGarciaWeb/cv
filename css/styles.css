@@ -3,19 +3,23 @@
 body {
     background-color: #FEFBF3;
     margin: 0;
+    font-family: verdana, sans-serif;
+    text-align: center;
 }
 
 
 hr {
     border-style: none;
-    height: 1px;
-    border-width: 5px;
+    height: 0.0625em;
+    border-width: 0.3125em;
     background-color: #9D9D9D;
     width: 100%;
 }
 
 h1 {
     color: #181D31;
+    width: 15%;
+    margin: 0 auto 0 auto;
 }
 
 h2 {
@@ -31,26 +35,19 @@ intro_name {
 }
 
 .intro_name:hover {
-    font-size: 2.5em;
+    font-size: 2.1em;
 }
 
 .intro_name {
-    transition: 2s font-size;
+    transition: 500ms font-size;
 }
 .profession_main:hover {
-    font-size: 2.15em;
-    text-shadow: 5.5px 5.5px 3.7px #9D9D9D;
+    text-shadow: 0 0.3125em 0.125em #9D9D9D;
+
 }
 
 .profession_main {
-    transition: 2s text-shadow;
-    transition: 2s font-size;
-}
-
-.header_bar {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    transition: 1s text-shadow;
 }
 
 .header_main {
@@ -58,8 +55,126 @@ intro_name {
     margin: 0;
     padding: 0;
     border: 0;
+    padding-top: 1em;
+    height: 57.5em;
+}
+
+.contact_me, .about_me {
+    transition: 1s border-color;
+    position: absolute;
+}
+
+.contact_me {
+    width: 5%;
+    margin: 0 auto 0 auto;
+    right: 25em;
+    color: #141E27;
+    border-bottom: 2px solid transparent;
+}
+
+.about_me {
+    width: 5%;
+    right: 15em;
+    margin: 0 0 0 auto;
+    color: #141E27;
+    border-bottom: 0.125em solid transparent;
+}
+
+.header_bar {
+    background-color: #F8F0DF;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.contact_me:hover, .about_me:hover{
+    border-color: black;
 }
 
 .career_interests{
     font-size: 1.6em;
+}
+
+.interests{
+    font-size: 1.1em;
+    margin-bottom: 3em;
+}
+
+.pycon {
+    position: relative;
+    margin-right: 3em;
+}
+
+.awsicon {
+    position: relative;
+    margin-right: 3em;
+}
+
+.backendicon {
+    position: relative;
+    margin-right: 3em;
+}
+
+.algoicon {
+    position: relative;
+}
+
+.seperator {
+    margin: 0;
+}
+
+.contact_details {
+    text-align: left;
+}
+
+.abilities_skills{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
+
+.skills_main {
+    height: 30em;
+}
+
+.critical_thinking {
+    position: relative;
+    right: 17em;
+    bottom: 12em;
+}
+
+.git{
+    position: relative;
+    left: 17em;
+    bottom: 12em;
+}
+
+.courses_table {
+    text-align: left;
+    width: 53%;
+    margin: 0 auto 0 auto;
+}
+
+.table_header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.hobbies_main {
+    margin: 0 auto 4em auto;
+}
+
+.Hobbies {
+    text-align: left;
+    width: 53%;
+    margin: 0 auto 0 auto;
+}
+
+.biography_main {
+    text-align: center;
+    width: 75%;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 6.5em;
 }

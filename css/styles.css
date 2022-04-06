@@ -1,14 +1,17 @@
 
 
 body {
-    background-color: #E6DDC4;
+    background-color: #FEFBF3;
+    margin: 0;
 }
+
+
 hr {
-    border-style: dotted none none;
-    height: 2.5px;
+    border-style: none;
+    height: 1px;
     border-width: 5px;
-    border-color: #9D9D9D;
-    width: 55%;
+    background-color: #9D9D9D;
+    width: 100%;
 }
 
 h1 {
@@ -23,10 +26,40 @@ h3 {
     color: #141E27;
 }
 
+intro_name {
+    margin: 0;
+}
+
 .intro_name:hover {
-    text-shadow: 5.5px 5.5px 3.7px #9D9D9D;
+    font-size: 2.5em;
 }
 
 .intro_name {
+    transition: 2s font-size;
+}
+.profession_main:hover {
+    font-size: 2.15em;
+    text-shadow: 5.5px 5.5px 3.7px #9D9D9D;
+}
+
+.profession_main {
     transition: 2s text-shadow;
+    transition: 2s font-size;
+}
+
+.header_bar {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header_main {
+    background-color: #F8F0DF;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.career_interests{
+    font-size: 1.6em;
 }

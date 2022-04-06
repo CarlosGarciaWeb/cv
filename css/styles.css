@@ -3,15 +3,15 @@
 body {
     background-color: #FEFBF3;
     margin: 0;
-    font-family: verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
 }
 
 
 hr {
     border-style: none;
-    height: 0.0625em;
-    border-width: 0.3125em;
+    height: 0.0625rem;
+    border-width: 0.3125rem;
     background-color: #9D9D9D;
     width: 100%;
 }
@@ -30,19 +30,19 @@ h3 {
     color: #141E27;
 }
 
-intro_name {
-    margin: 0;
+.intro_name {
+    margin: 0 auto 0 auto;
 }
 
 .intro_name:hover {
-    font-size: 2.1em;
+    font-size: 2.1rem;
 }
 
 .intro_name {
     transition: 500ms font-size;
 }
 .profession_main:hover {
-    text-shadow: 0 0.3125em 0.125em #9D9D9D;
+    text-shadow: 0 0.3125rem 0.125rem #9D9D9D;
 
 }
 
@@ -55,8 +55,8 @@ intro_name {
     margin: 0;
     padding: 0;
     border: 0;
-    padding-top: 1em;
-    height: 57.5em;
+    padding-top: 1rem;
+    height: 1000%;
 }
 
 .contact_me, .about_me {
@@ -67,23 +67,23 @@ intro_name {
 .contact_me {
     width: 5%;
     margin: 0 auto 0 auto;
-    right: 25em;
+    right: 25rem;
     color: #141E27;
     border-bottom: 2px solid transparent;
 }
 
 .about_me {
     width: 5%;
-    right: 15em;
+    right: 15rem;
     margin: 0 0 0 auto;
     color: #141E27;
-    border-bottom: 0.125em solid transparent;
+    border-bottom: 0.125rem solid transparent;
 }
 
 .header_bar {
     background-color: #F8F0DF;
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 
 .contact_me:hover, .about_me:hover{
@@ -91,27 +91,29 @@ intro_name {
 }
 
 .career_interests{
-    font-size: 1.6em;
+    font-size: 1.6rem;
+
 }
 
 .interests{
-    font-size: 1.1em;
-    margin-bottom: 3em;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    font-family: "Merriweather", serif;
 }
 
 .pycon {
     position: relative;
-    margin-right: 3em;
+    margin-right: 3rem;
 }
 
 .awsicon {
     position: relative;
-    margin-right: 3em;
+    margin-right: 3rem;
 }
 
 .backendicon {
     position: relative;
-    margin-right: 3em;
+    margin-right: 3rem;
 }
 
 .algoicon {
@@ -126,48 +128,62 @@ intro_name {
     text-align: left;
 }
 
-.abilities_skills{
-    text-align: center;
-    width: 20%;
+
+.skills_main {
+    height: 480%;
+    font-family: "Merriweather", serif;
+    display: inline-block;
+    width: 80%;
     margin: 0 auto 0 auto;
 }
 
-.skills_main {
-    height: 30em;
+.abilities_skills{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto 0 auto;
+    line-height: 1.7;
 }
 
 .critical_thinking {
     position: relative;
-    right: 17em;
-    bottom: 12em;
+    bottom: 7rem;
+    right: 15rem;
 }
 
 .git{
     position: relative;
-    left: 17em;
-    bottom: 12em;
+    bottom: 7rem;
+    left: 15rem;
 }
 
 .courses_table {
     text-align: left;
     width: 53%;
     margin: 0 auto 0 auto;
+    font-family: "Merriweather", serif;
 }
 
 .table_header {
     text-align: center;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.skills_header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
 }
 
 .hobbies_main {
-    margin: 0 auto 4em auto;
+    margin: 0 auto 4rem auto;
 }
 
 .Hobbies {
     text-align: left;
     width: 53%;
     margin: 0 auto 0 auto;
+    font-family: "Merriweather", serif;
 }
 
 .biography_main {
@@ -176,5 +192,7 @@ intro_name {
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
-    height: 6.5em;
+    height: 16800%;
+    font-family: "Merriweather", serif;
+    line-height: 1.7;
 }
